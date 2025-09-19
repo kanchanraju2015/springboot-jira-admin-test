@@ -18,4 +18,8 @@ public class JiraController {
     public String userInput(@PathVariable String name) {
         return "Hello " + name;
     }
+@RequestMapping("/santosh")
+public String santosh() {
+    return "This is create by santosh ";
+}
 }
